@@ -1,0 +1,90 @@
+/* Created by Dronax (fantommd5@gmail.com)
+==================================================== */
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+
+  background: #1e5799;
+  background: -moz-linear-gradient(-45deg, #1e5799 0%, #207cca 0%, #066897 0%, #bdddd8 100%);
+  background: -webkit-linear-gradient(-45deg, #1e5799 0%,#207cca 0%,#066897 0%,#bdddd8 100%); 
+  background: linear-gradient(135deg, #1e5799 0%,#207cca 0%,#066897 0%,#bdddd8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#bdddd8',GradientType=1 );
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.cv-form {
+  width: 480px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+
+.inner-addon { 
+  position: relative; 
+}
+
+.form-group input {
+  height: 40px;
+}
+
+.form-group textarea {
+  padding-top: 10px;
+  resize: none;
+}
+
+.form-group input,
+.form-group textarea {
+  font-size: 13px;
+}
+
+.inner-addon .fas {
+  position: absolute;
+  padding: 12px 13px;
+  pointer-events: none;
+  color: gray;
+}
+
+.inner-addon .fas:after {
+  content: "";
+  border-right: 1px dotted;
+  padding-left: 10px;
+}
+
+.left-addon .fas  { left:  0px;}
+.left-addon input, .left-addon textarea  { padding-left:  56px; }
+
+.title-section {
+  color: gray;
+}
+
+.title-section h1 {
+  font-weight: 100;
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.title-section p {
+  font-size: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-primary {
+  height: 50px;
+  box-shadow: none;
+  border-bottom: 2px solid #274677;
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
+}
