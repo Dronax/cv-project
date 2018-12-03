@@ -10,7 +10,13 @@ Laravel CV sender Project
 `cp .env.example .env`
 `php artisan key:generate`
 And setup your .env file with actually database data
-4) `php artisan migrate`
-5) `php artisan serve`
+4) Run command: `php artisan storage:link`
+5) The end :) Run: `php artisan serve` and start test my application. 
+
+# Admin data
+
+Admin link: `http://127.0.0.1:8000/admin`
+Login: `admin@admin.com`
+Password: `admin1234`
 
 Good Look! ;)
