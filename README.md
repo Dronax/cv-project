@@ -4,7 +4,7 @@ Laravel CV sender Project
 # Installation
 
 1) Clone this repository on your folder
-2) Export cv.sql on your database
+2) Import cv.sql on your database
 3) Run command `composer install`
 3) Run the following commands:
 `cp .env.example .env`
